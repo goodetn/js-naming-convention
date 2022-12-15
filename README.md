@@ -73,6 +73,24 @@ var hasTitle = true; // 👍
 
 #### #3 - `FUNCTION NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN FUNCTION` TRONG JS)
 
+> 3.1 - JavaScript functions are also written in camelCase style. Also, the best way to really tell what a function is doing is to use a verb as a prefix to the function name:
+>
+> > (Vietnamese: Các hàm JavaScript cũng được viết theo kiểu camelCase. Ngoài ra, cách tốt nhất để thực sự cho biết hàm đang làm gì là sử dụng một động từ làm tiền tố cho tên hàm)
+
+```js
+// name 👎
+function name(firstName, lastName) {
+  return `${firstName} ${lastName}`;
+}
+
+// getName 👍
+function getName(firstName, lastName) {
+  return `${firstName} ${lastName}`;
+}
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
 #### #4 - `CLASS NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CLASS` TRONG JS)
 
 #### #5 - `COMPONENT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN COMPONENT` TRONG JS)
