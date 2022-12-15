@@ -93,6 +93,23 @@ function getName(firstName, lastName) {
 
 #### #4 - `CLASS NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CLASS` TRONG JS)
 
+> 4.1 - A class in JavaScript is declared using the PascalCase type as opposed to other JavaScript data structures:
+>
+> > (Vietnamese: Một lớp trong JavaScript được khai báo bằng kiểu PascalCase trái ngược với các cấu trúc dữ liệu JavaScript khác)
+
+```js
+class Post {
+  constructor(title, slug) {
+    this.title = title;
+    this.slug = slug;
+  }
+}
+
+const post = new Post("Javascript learning", "javascript-learning");
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
 #### #5 - `COMPONENT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN COMPONENT` TRONG JS)
 
 #### #6 - `METHOD NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN MEDTHOD` TRONG JS)
