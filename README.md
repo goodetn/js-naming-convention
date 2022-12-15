@@ -140,7 +140,26 @@ function Post({ title, slug }) {
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-#### #6 - `METHOD NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN MEDTHOD` TRONG JS)
+#### #6 - `METHOD NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN METHOD` TRONG JS)
+
+> 6.1 - Like JavaScript functions, a method name in a JavaScript class is declared with camelCase::
+>
+> > (Vietnamese: Giống như các hàm JavaScript, tên một phương thức trong một lớp JavaScript được khai báo với kiểu camelCase)
+
+```js
+class Post {
+  constructor(title, slug) {
+    this.title = title;
+    this.slug = slug;
+  }
+  //   getTitle 👍
+  getTitle() {
+    return `🔗 ${this.title}`;
+  }
+}
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
 
 #### #7 - `PRIVATE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN PRIVATE` TRONG JS)
 
