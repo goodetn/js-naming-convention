@@ -112,6 +112,34 @@ const post = new Post("Javascript learning", "javascript-learning");
 
 #### #5 - `COMPONENT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN COMPONENT` TRONG JS)
 
+> 5.1 - Components are commonly found in Frontend Frameworks like React, they are also widely declared with the PascalCase type:
+>
+> > (Vietnamese: Các component thường được tìm thấy trong các Frontend Framework như React, chúng cũng được khai báo rộng rãi với kiểu PascalCase)
+
+```jsx
+// post 👎
+function post({ title, slug }) {
+  return (
+    <Link to={slug}>
+      <h3>{title}</h3>
+      <span>...</span>
+    </Link>
+  );
+}
+
+// Post 👍
+function Post({ title, slug }) {
+  return (
+    <Link to={slug}>
+      <h3>{title}</h3>
+      <span>...</span>
+    </Link>
+  );
+}
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
 #### #6 - `METHOD NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN MEDTHOD` TRONG JS)
 
 #### #7 - `PRIVATE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN PRIVATE` TRONG JS)
