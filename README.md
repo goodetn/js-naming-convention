@@ -51,6 +51,26 @@ let currentValue = 1; // 👍
 
 #### #2 - `BOOLEAN NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BOOLEAN` TRONG JS)
 
+> 2.1 - Adding a prefix like `is`, `are` or `has` is the simplest way to help any programmer using JavaScript to distinguish a boolean variable from another variable.:
+>
+> > (Vietnamese: Thêm tiền tố như `is`, `are` hoặc `has` là cách đơn giản nhất giúp mọi lập trình viên sử dụng JavaScript phân biệt biến boolean với một biến khác.)
+
+```js
+var mobile = true; // 👎
+
+var isMobile = true; // 👍
+
+var difference = false; // 👎
+
+var areDifference = false; // 👍
+
+var title = true; // 👎
+
+var hasTitle = true; // 👍
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
 #### #3 - `FUNCTION NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN FUNCTION` TRONG JS)
 
 #### #4 - `CLASS NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CLASS` TRONG JS)
