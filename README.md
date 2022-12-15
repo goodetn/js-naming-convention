@@ -2,7 +2,7 @@
 
 #### #1 - `VARIABLE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BIẾN` TRONG JS)
 
-> 1 - JavaScipt variables are case sensitive. Therefore, JavaScript variables with lowercase and uppercase characters are different.
+> 1.1 - JavaScipt variables are case sensitive. Therefore, JavaScript variables with lowercase and uppercase characters are different.
 >
 > > (Vietnamese: Các biến JavaScipt phân biệt chữ hoa chữ thường. Do đó, các biến JavaScript với ký tự viết thường và viết hoa là khác nhau)
 
@@ -21,9 +21,11 @@ console.log(Intro);
 
 console.log(INTRO);
 // "I'm from Vietnam"
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-> 2 - JavaScript variables must describe what they mean. It is not necessary to add a comment for an additional description of the variable:
+> 1.2 - JavaScript variables must describe what they mean. It is not necessary to add a comment for an additional description of the variable:
 >
 > > (Vietnamese: Biến JavaScript phải tự mô tả ý nghĩa của nó. Không cần thiết phải thêm nhận xét để có mô tả bổ sung cho biến)
 
@@ -33,7 +35,7 @@ const str = "Hello world!"; // 👎
 const title = "My name Peter"; // 👍
 ```
 
-> 3 - Constants, regular variables (types in use):
+> 1.3 - Constants, regular variables (types in use):
 >
 > > (Vietnamese: Hằng số, biến thông thường(kiểu đang dùng))
 
@@ -44,7 +46,7 @@ const MAX_LENGTH = 30; // 👍
 // normal variable:
 let currentValue = 1; // 👍
 
-// 👨🏻‍💻 Feel free to add more!
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
 #### #2 - `BOOLEAN NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BOOLEAN` TRONG JS)
