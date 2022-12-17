@@ -1,6 +1,6 @@
 # # - JAVASCRIPT NAMING CONVENTION(`QUY ƯỚC ĐẶT TÊN TRONG JAVASCRIPT`)
 
-#### #1 - `VARIABLE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BIẾN` TRONG JS)
+#### [#1](https://github.com/goodetn/js-naming-convention/blob/52b047c3d649344cb435c9001aade0093a26ca5b/README.md?plain=1#L3) - `VARIABLE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BIẾN` TRONG JS)
 
 > 1.1 - JavaScipt variables are case sensitive. Therefore, JavaScript variables with lowercase and uppercase characters are different.
 >
@@ -49,7 +49,7 @@ let currentValue = 1; // 👍
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-#### #2 - `BOOLEAN NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BOOLEAN` TRONG JS)
+#### [#2](https://github.com/goodetn/js-naming-convention/blob/f32ee30b4cc39f0ee205715b9c756b7ec37693c3/README.md?plain=1#L52) - `BOOLEAN NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN BOOLEAN` TRONG JS)
 
 > 2.1 - Adding a prefix like `is`, `are` or `has` is the simplest way to help any programmer using JavaScript to distinguish a boolean variable from another variable.:
 >
@@ -71,7 +71,7 @@ var hasTitle = true; // 👍
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-#### [#3](https://github.com/goodetn/js-naming-convention/commit/c4c4b906d4b9b42d8e95a4edd5be20b8450454a9) - `FUNCTION NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN FUNCTION` TRONG JS)
+#### [#3](https://github.com/goodetn/js-naming-convention/blob/c4c4b906d4b9b42d8e95a4edd5be20b8450454a9/README.md?plain=1#L74) - `FUNCTION NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN FUNCTION` TRONG JS)
 
 > 3.1 - JavaScript functions are also written in camelCase style. Also, the best way to really tell what a function is doing is to use a verb as a prefix to the function name:
 >
@@ -91,7 +91,7 @@ function getName(firstName, lastName) {
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-#### [#4](https://github.com/goodetn/js-naming-convention/commit/178e7ad6f16e1a6059a49d979b801b651acd14a6) - `CLASS NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CLASS` TRONG JS)
+#### [#4](https://github.com/goodetn/js-naming-convention/blob/178e7ad6f16e1a6059a49d979b801b651acd14a6/README.md?plain=1#L94) - `CLASS NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CLASS` TRONG JS)
 
 > 4.1 - A class in JavaScript is declared using the PascalCase type as opposed to other JavaScript data structures:
 >
@@ -110,7 +110,7 @@ const post = new Post("Javascript learning", "javascript-learning");
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-#### [#5](https://github.com/goodetn/js-naming-convention/commit/b4f44b8f285ac92018e66a3316156130e7ba867f) - `COMPONENT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN COMPONENT` TRONG JS)
+#### [#5](https://github.com/goodetn/js-naming-convention/blob/b4f44b8f285ac92018e66a3316156130e7ba867f/README.md?plain=1#L113) - `COMPONENT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN COMPONENT` TRONG JS)
 
 > 5.1 - Components are commonly found in Frontend Frameworks like React, they are also widely declared with the PascalCase type:
 >
@@ -140,7 +140,7 @@ function Post({ title, slug }) {
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
 
-#### [#6](https://github.com/goodetn/js-naming-convention/commit/be5b482205315b9ebcdba7f0e87d95522bb14732) - `METHOD NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN METHOD` TRONG JS)
+#### [#6](https://github.com/goodetn/js-naming-convention/blob/be5b482205315b9ebcdba7f0e87d95522bb14732/README.md?plain=1#L143) - `METHOD NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN METHOD` TRONG JS)
 
 > 6.1 - Like JavaScript functions, a method name in a JavaScript class is declared with camelCase::
 >
