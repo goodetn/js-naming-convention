@@ -163,6 +163,39 @@ class Post {
 
 #### #7 - `PRIVATE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN PRIVATE` TRONG JS)
 
+> 7.1 - Class fields are public by default, but private class members can be created by using a hash # prefix. The privacy encapsulation of these class features is enforced by JavaScript itself.
+>
+> > (Vietnamese: Các trường lớp là công khai theo mặc định, nhưng các thành viên lớp riêng tư có thể được tạo bằng cách sử dụng tiền tố băm #. Việc đóng gói quyền riêng tư của các tính năng lớp này được thực thi bởi chính JavaScript.)
+
+> Private members are not native to the language before this syntax existed. In prototypical inheritance, its behavior may be emulated with WeakMap objects or closures, but they can't compare to the # syntax in terms of ergonomics.
+>
+> > (Vietnamese: Các thành viên riêng tư không có nguồn gốc từ ngôn ngữ trước khi cú pháp này tồn tại. Trong kế thừa nguyên mẫu, hành vi của nó có thể được mô phỏng bằng các đối tượng WeakMap hoặc bao đóng, nhưng chúng không thể so sánh với cú pháp # về mặt công thái học.)
+
+```js
+class ClassWithPrivate {
+  #privateField; // (1) - Private fields
+  #privateFieldWithInitializer = 42;
+
+  #privateMethod() {
+    // (2) - Private methods
+  }
+
+  static #privateStaticField; // (3) - Private static fields
+  static #privateStaticFieldWithInitializer = 42;
+
+  static #privateStaticMethod() {
+    // (4) - Private static methods
+  }
+
+  // (5) -  Private getters
+  // (6) -  Private setters
+  // (7) -  Private static getters
+  // (8) -  Private static setters
+}
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
 #### #8 - `CONSTANT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CONSTANT` TRONG JS)
 
 #### #9 - `GLOBAL VARIABLE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN GLOBAL VARIABLE` TRONG JS)
