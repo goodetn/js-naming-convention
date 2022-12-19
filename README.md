@@ -198,6 +198,20 @@ class ClassWithPrivate {
 
 #### #8 - `CONSTANT NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN CONSTANT` TRONG JS)
 
+> 8.1 - Last but not least, constants - which aim to be immutable variables - in JavaScript are written in capital letters (UPPERCASE):
+>
+> > (Vietnamese: Cuối cùng nhưng không kém phần quan trọng, các hằng số - nhằm mục đích là các biến không thay đổi - trong JavaScript được viết bằng chữ in hoa (UPPERCASE):)
+
+```js
+var SECONDS = 60;
+var MINUTES = 60;
+var HOURS = 24;
+
+var DAY = SECONDS * MINUTES * HOURS;
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
 #### #9 - `GLOBAL VARIABLE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN GLOBAL VARIABLE` TRONG JS)
 
 #### #10 -`FILE NAMING` CONVENTION( QUY ƯỚC ĐẶT `TÊN FILE` TRONG JAVASCRIPT)
