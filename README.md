@@ -245,3 +245,25 @@ const DAYS_UNTIL_TOMORROW = 1;
 > > Biến JavaScript toàn cục được viết bằng UPPERCASE nếu nó là bất biến.)
 
 #### #10 -`FILE NAMING` CONVENTION( QUY ƯỚC ĐẶT `TÊN FILE` TRONG JAVASCRIPT)
+
+> 10.1 - There are two file naming strategies in JavaScript: PascalCase and kebab-case.
+>
+> In Front end applications, you will often find people using the PascalCase style to name components (e.g. React components).
+>
+> > (Vietnamese: Có hai chiến lược đặt tên tệp trong JavaScript: PascalCase và kebab-case.
+>
+> > Trong các ứng dụng Front end, bạn sẽ thường thấy người ta sử dụng kiểu PascalCase để đặt tên cho các component (ví dụ: các component của React).)
+
+```js
+- components/
+--- user/
+----- UserProfile.js
+----- UserList.js
+----- UserItem.js
+--- ui/
+----- Dialog.js
+----- Dropdown.js
+----- Table.js
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
