@@ -287,3 +287,21 @@ const DAYS_UNTIL_TOMORROW = 1;
 > > (Vietnamese: Bạn cũng thể sẽ thấy ai đó sử dụng camelCase, nhưng tương tự như trong các ứng dụng front end. Nhưng điều này có nguy cơ là hệ điều hành đang xử lý chúng theo cách khác có thể dẫn đến lỗi.
 > >
 > > Đó là lý do tại sao kiểu kebab-case nên là tiêu chuẩn cho việc đặt tên tệp trong JavaScript.)
+
+#### `(*)` - SHOULD BE USE `underscores_naming` for variable names?
+
+> So is underscore used for naming in JavaScript?
+>
+> Since camelCase and PascalCase are mostly considered in JS, you've seen that underscores are rarely used for private variables or constants.
+>
+> Sometimes you'll find an underscore when receiving information from a third party like a database or an API.
+>
+> Another case where you may see underscores are unused function parameters.
+>
+> > (Vietnamese: Vậy còn dấu gạch dưới có được sử dụng để đặt tên trong JavaScript không?
+> >
+> > Vì camelCase và PascalCase chủ yếu được xem xét trong JS, bạn đã thấy rằng dấu gạch dưới hiếm khi được sử dụng cho các biến hoặc hằng số riêng.
+> >
+> > Đôi khi, bạn sẽ tìm thấy dấu gạch dưới khi nhận thông tin từ bên thứ ba như cơ sở dữ liệu hoặc API.
+> >
+> > Một trường hợp khác mà bạn có thể thấy dấu gạch dưới là các tham số hàm không được sử dụng.)
