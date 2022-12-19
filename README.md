@@ -224,4 +224,24 @@ const DAYS_UNTIL_TOMORROW = 1;
 
 #### #9 - `GLOBAL VARIABLE NAMING` CONVENTION(QUY ƯỚC ĐẶT `TÊN GLOBAL VARIABLE` TRONG JS)
 
+> 9.1 - A JavaScript variable is defined as a Global variable, if all its contexts have access to it.
+>
+> Often the context is defined by the JavaScript file where the variable is declared/defined, but in smaller JavaScript projects it can be the entire project.
+>
+> And there is no special naming convention for global variables in JavaScript.
+>
+> A global JavaScript variable declared at the top of the project/file.
+> A global JavaScript variable is written in camelCase if it is mutable.
+> A global JavaScript variable is written in UPPERCASE if it is immutable.
+>
+> > (Vietnamese: Một biến JavaScript được xác định biến Global (toàn cục), nếu trong tất cả ngữ cảnh của nó đều có quyền truy cập vào nó.
+>
+> > Thường thì ngữ cảnh được xác định bởi tệp JavaScript nơi biến được khai báo / định nghĩa, nhưng trong các dự án JavaScript nhỏ hơn, nó có thể là toàn bộ dự án.
+>
+> > Và cũng không có quy ước đặt tên đặc biệt nào cho các biến toàn cục trong JavaScript.
+>
+> > Một biến JavaScript toàn cục được khai báo ở đầu dự án / tệp.
+> > Một biến JavaScript toàn cục được viết bằng camelCase nếu nó có thể thay đổi được.
+> > Biến JavaScript toàn cục được viết bằng UPPERCASE nếu nó là bất biến.)
+
 #### #10 -`FILE NAMING` CONVENTION( QUY ƯỚC ĐẶT `TÊN FILE` TRONG JAVASCRIPT)
