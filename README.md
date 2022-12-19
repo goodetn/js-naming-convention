@@ -305,3 +305,42 @@ const DAYS_UNTIL_TOMORROW = 1;
 > > Đôi khi, bạn sẽ tìm thấy dấu gạch dưới khi nhận thông tin từ bên thứ ba như cơ sở dữ liệu hoặc API.
 > >
 > > Một trường hợp khác mà bạn có thể thấy dấu gạch dưới là các tham số hàm không được sử dụng.)
+
+#### `(*)` - ? SHOULD BE USE `HYPHEN-NAMING` TO NAME VARIABLES?
+
+> Using hyphen for JavaScript names is also not common. It just makes things more difficult.
+>
+> For example when using them in object orientation:
+>
+> > (Vietnamese: Sử dụng dấu gạch ngang để đặt tên JavaScript cũng không phải là phổ biến. Nó chỉ làm cho mọi thứ trở nên khó khăn hơn.)
+> >
+> > Ví dụ như khi sử dụng chúng trong hướng đối tượng:
+
+```js
+var person = {
+  "first-name": "Mai", // 👎
+  "last-name": "Hà", // 👎
+};
+
+var firstName = person["first-name"]; // 👎
+
+var person = {
+  firstName: "Mai", // 👍
+  lastName: "Hà", // 👍
+};
+
+var firstName = person.firstName; // 👍
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
+> And you can't even use hyphen for variable declarations directly:
+>
+> > (Vietnamese: Và thậm chí bạn không thể sử dụng trực tiếp dấu gạch ngang cho khai báo biến:)
+
+```js
+var first-name = 'Mai';
+// Uncaught SyntaxError: Unexpected token '-'
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
