@@ -267,3 +267,23 @@ const DAYS_UNTIL_TOMORROW = 1;
 
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
+
+> 10.2 - In contrast, in a back end application, kebab-case is the usual usage:
+>
+> > (Vietnamese: Ngược lại, trong ứng dụng back end, kebab-case là cách sử dụng thông thường:)
+
+```js
+- routing/
+--- user-route.js
+--- messages-route.js
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
+> 10.3 - You will also see someone using camelCase, but similar in front end applications. But this runs the risk that the operating system is handling them in a different way which could lead to errors.
+>
+> That's why the kebab-case style should be the standard for file naming in JavaScript.
+>
+> > (Vietnamese: Bạn cũng thể sẽ thấy ai đó sử dụng camelCase, nhưng tương tự như trong các ứng dụng front end. Nhưng điều này có nguy cơ là hệ điều hành đang xử lý chúng theo cách khác có thể dẫn đến lỗi.
+> >
+> > Đó là lý do tại sao kiểu kebab-case nên là tiêu chuẩn cho việc đặt tên tệp trong JavaScript.)
