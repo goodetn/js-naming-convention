@@ -203,11 +203,21 @@ class ClassWithPrivate {
 > > (Vietnamese: Cuối cùng nhưng không kém phần quan trọng, các hằng số - nhằm mục đích là các biến không thay đổi - trong JavaScript được viết bằng chữ in hoa (UPPERCASE):)
 
 ```js
-var SECONDS = 60;
-var MINUTES = 60;
-var HOURS = 24;
+const SECONDS = 60;
+const MINUTES = 60;
+const HOURS = 24;
 
-var DAY = SECONDS * MINUTES * HOURS;
+const DAY = SECONDS * MINUTES * HOURS;
+
+// P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
+```
+
+> 8.2 - If a constant has more than one word in its variable declaration name, it uses underscores (\_) to separate the words:
+>
+> > (Vietnamese: Nếu một hằng số có nhiều hơn một từ trong tên khai báo biến của nó, nó sẽ sử dụng dấu gạch dưới (\_) để phân tách các từ:)
+
+```js
+const DAYS_UNTIL_TOMORROW = 1;
 
 // P.S 👨🏻‍💻 I always need your contribute. Let's take the code better!
 ```
